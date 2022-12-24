@@ -12,3 +12,9 @@ UART(Universal Asynchronous Receiver Transmitter)
 
 As mentioned this interface does not have a clock, the data must be sampled to recover it correctly. It needs to be sampled at least eight times faster than the rate of the data bits. </br>
 This means for an *115200* baud UART, the data needs to be sampled **atleast** at 921.6 KHz (115200 * 8 bits).
+
+
+Will be adding more information later:)
+
+Waveform for tx
+![alt text](https://github.com/IEEE-NITK/RISC-V-SoC/blob/9b1512c21cf2f26addcc653452fb305b24f4854b/UART/tx/uart_tx.png)
