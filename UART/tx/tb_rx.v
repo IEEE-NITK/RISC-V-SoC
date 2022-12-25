@@ -7,7 +7,7 @@ reg [DATAWIDTH-1:0] i_data;
 wire o_tx_data;
 
 // reg [DATAWIDTH-1:0] var = 8'd11001100;
-integer i, j;
+integer j;
 
 transmitter UUT(clk, i_data, i_reset, i_transmit, o_tx_data);
 initial begin
@@ -26,7 +26,7 @@ initial begin
         @(posedge clk);
     end
     #10 i_data = 8'b0000_1111; // taking around 10+1 baudrate
-    for(j=0; j<104160; j=j+1) begin
+    for(j=0; j<135408; j=j+1) begin
         @(posedge clk);
     end
     $finish;

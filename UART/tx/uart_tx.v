@@ -45,7 +45,10 @@ always @(posedge clk) begin
             counter <= 0;
         if (shift) 
             shift_reg <= shift_reg >> 1; 
-        counter <= counter + 1;
+        if (counter != 10) 
+            counter <= counter + 1;
+        else 
+            counter <= 0;
         end
     end
 end
