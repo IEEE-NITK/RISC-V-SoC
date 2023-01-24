@@ -17,4 +17,4 @@ This means for an *115200* baud UART, the data needs to be sampled **atleast** a
 Will be adding more information later:)
 
 Waveform for tx
-![alt text](https://github.com/IEEE-NITK/RISC-V-SoC/blob/d9b19529c59d462065d4e1837ee77a3d7c6eb79b/UART/tx/uart_tx.png)
+![alt text](https://github.com/IEEE-NITK/RISC-V-SoC/blob/main/UART/tx/uart_tx.png)
