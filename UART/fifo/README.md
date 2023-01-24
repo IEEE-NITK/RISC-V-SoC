@@ -1,42 +1,42 @@
 Basic FIFO Design
 Serial ports can easily get overloaded with information let’s build a FIFO to tackle that.
 
-References:
-Verilog Arrays and Memories
+References:</br>
+[Verilog Arrays and Memories](https://www.chipverify.com/verilog/verilog-arrays) </br>
 https://zipcpu.com/tutorial/lsn-10-fifo.pdf
-Serial Port Reciever:
-https://zipcpu.com/tutorial/lsn-09-serialrx.pdf
 
-Build a Block RAM:
-https://zipcpu.com/tutorial/lsn-08-memory.pdf
+**I/O Ports of a FIFO**</br>
+Our memories constrain much of our logic:</br>
+Writes to the FIFO memory</br>
+Reads from the FIFO memory</br>
 
-I/O Ports of a FIFO
-Our memories constrain much of our logic:
-Writes to the FIFO memory
-Reads from the FIFO memory
+**i_wr && !o_full**:  i_ data is written to FIFO</br>
+**i_rd && !o_empty**: we will return o_data from the FIFO </br>
 
-i_wr && !o_full:  i_ data is written to FIFO
-i_rd && !o_empty: we will return o_data from the FIFO
-
-trick to the addresses...
-For a memory of 2^N elements
-With an N-bit array index
+trick to the addresses...</br>
+For a memory of 2^N elements</br>
+With an N-bit array index</br>
 
 
 
-Flaws in our design so far
-We broke our memory rules, not sure how :/
-always (*) o_data = fifo_mem[rd_addr];
+Flaws in our design so far</br>
+We broke our memory rules, not sure how :/</br>
+always (*) o_data = fifo_mem[rd_addr];</br>
 
-Logic also depends on wr_fifo and rd_fifo
-These values depend upon o_full and o_empty -> N bit subtract comparison 
-This will limit the total speed of our design
+Logic also depends on wr_fifo and rd_fifo</br>
+These values depend upon o_full and o_empty -> N bit subtract comparison </br>
+This will limit the total speed of our design</br>
 
-To be honest, I still am not able to get used to formal verification
-So will try simulating all kinds of possible cases to verify the FIFO
+To be honest, I still am not able to get used to formal verification</br>
+So will try simulating all kinds of possible cases to verify the FIFO</br>
 
-Case 1: Write two arbitrary values to it in succession and prove that you can read those same values back later
+Case 1: Write two arbitrary values to it in succession and prove that you can read those same values back later</br>
 
+
+**Waveform**
+![Wavefomr](https://github.com/IEEE-NITK/RISC-V-SoC/blob/main/UART/fifo/waveform.png)
+**Memory**
+![Memory](https://github.com/IEEE-NITK/RISC-V-SoC/blob/main/UART/fifo/memory.png)
  
 
 
