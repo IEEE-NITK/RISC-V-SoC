@@ -1,5 +1,5 @@
 
-[![GitHub issues](https://img.shields.io/github/issues/IEEE-NITK/RISC-V-SoC?color=green&label=Issues&style=flat)](https://github.com/IEEE-NITK/SLAMBot/issues)
+[![GitHub issues](https://img.shields.io/github/issues/IEEE-NITK/RISC-V-SoC?color=green&label=Issues&style=flat)](https://github.com/IEEE-NITK/RISC-V-SoC/issues)
 <br>
 
 <br>
