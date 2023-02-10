@@ -29,3 +29,6 @@
 
 ## Introduction
 This project aims to interface different Peripherals, Memory integrated with RISC-V(<b>R</b>educed <b>I</b>nstruction <b>S</b>et <b>C</b>omputer) processor and successfully implement it on FPGA.
+
+<br>
+<hr>
