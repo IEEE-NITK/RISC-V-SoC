@@ -1,4 +1,3 @@
-`include "8_bit_tx.v"
 `timescale 1ns/1ns
 
 module tx_tb;
@@ -10,11 +9,6 @@ wire o_busy;
 wire o_uart_tx;
 
 tx dut(i_clk, i_wr, i_data, o_busy, o_uart_tx);
-
-initial begin
-    $dumpfile("tx.vcd");
-    $dumpvars();
-end
 
 initial begin
     i_clk = 0;
