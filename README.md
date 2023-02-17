@@ -32,3 +32,12 @@ This project aims to interface different Peripherals, Memory integrated with RIS
 
 <br>
 <hr>
+
+## UART
+A UART ( <b>U</b>niversal <b>A</b>synchronous <b>R</b>eceiver <b>T</b>ransmitter ) is a device-to-device hardware communication protocol that uses asynchronous serial communication with configurable speed.
+
+<h4>UART basically contains two parts for transmission</h4>
+<ul>
+  <li>Transmitter ( tx )</li>
+  <li>Receiver ( rx )</li>
+</ul>
