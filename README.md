@@ -10,7 +10,7 @@
             <a href="#introduction">Introduction</a>
         </li>
         <li>
-            <a href="#uart">UART</a>
+            <a href="https://github.com/IEEE-NITK/RISC-V-SoC/tree/main/UART">UART</a>
         </li>
         <li>
             <a href="#SPI">SPI</a> 
