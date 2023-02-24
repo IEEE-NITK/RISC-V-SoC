@@ -41,6 +41,9 @@ The first block is the state machine. Initially transmission starts when the ```
 ## Receiver ( rx )
 It receives data bit by bit at the rate of 8 bits per second.
 - ```i_clk``` is used for the clock signal.
+- ```i_rx_data``` is bitwise input data signal included with start and stop bits.
+- ```o_wr``` is asserted when the data in ```o_data``` is ready to be read.
+- ```o_data``` is an output register to output the recived data.
 
 Waveform for tx
 ![alt text](https://github.com/IEEE-NITK/RISC-V-SoC/blob/main/UART/tx/uart_tx.png)
