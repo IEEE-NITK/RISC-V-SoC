@@ -38,6 +38,9 @@ This module takes ```i_clk``` , ```i_data``` , ```i_wr``` as inputs and outputs 
 
 The first block is the state machine. Initially transmission starts when the ```i_wr``` is high and ```o_busy``` is low, ```o_busy``` is asserted and state is assigned as ```START``` as soon as the transmission starts.
 
+## Receiver ( rx )
+It receives data bit by bit at the rate of 8 bits per second.
+- ```i_clk``` is used for the clock signal.
 
 Waveform for tx
 ![alt text](https://github.com/IEEE-NITK/RISC-V-SoC/blob/main/UART/tx/uart_tx.png)
