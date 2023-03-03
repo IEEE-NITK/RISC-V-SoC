@@ -54,7 +54,7 @@ To simulate and run the verilog code, follow the format:
 ```
 $ iverilog example.v example_tb.v
 ```
-This command compiles the design, which is spread across two input files, and generates the compiled result into the "my_design" file. This works for small to medium sized designs. Next execute the compiled program like so:
+This command compiles the design, which is spread across two input files. This works for small to medium sized designs. Next execute the compiled program like so:
 ```
 $ vvp a.out
 ```
