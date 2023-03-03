@@ -13,7 +13,7 @@
             <a href="#simulation">Simulation</a>
         </li>
         <li> 
-            <a href="#Sythesis">Sythesis</a>
+            <a href="#synthesis">Synthesis</a>
         </li>
         <li>
             <a href="#UART">UART</a>
@@ -56,7 +56,7 @@ $ iverilog -o my_design example.v example_tb.v
 ```
 This command compiles the design, which is spread across two input files, and generates the compiled result into the "my_design" file. This works for small to medium sized designs. Next execute the compiled program like so:
 ```
-$ vvp my_design
+$ vvp a.out
 ```
 To see the output waveform on gtkwave
 ```
@@ -70,15 +70,25 @@ Synthesis converts a basic RTL (<b>R</b>egister <b>T</b>ransfer <b>Logic</b>) de
 
 Yosys is a framework for Verilog RTL synthesis <br>
 
-**Steps to install yosys**<br>
-Install dependencies: 
+**To install yosys follow the instructions mentioned in this repo** : [Yosys Open SYnthesis Suite](https://github.com/YosysHQ/yosys)
+
+Now simply run yosys_run.sh file, to synthesize: 
 ```
-$ sudo apt-get install build-essential clang bison flex \
-  libreadline-dev gawk tcl-dev libffi-dev git \
-  graphviz xdot pkg-config python3 libboost-system-dev \
-  libboost-python-dev libboost-filesystem-dev zlib1g-dev
+yosys -s yosys_run.sh
 ```
 
+### Gate Level Simulation (GLS)
+GLS is generating the simulation output by running test bench with netlist file generated from synthesis tool as design under test. Netlist is logically same as RTL code, therefore, same testbench can be used for it. We perform this to verify logical correctness of the design after synthesizing it. Also ensuring the timing of the design is met.
+
+run the following command format to perform GLS simulation:
+```
+$ iverilog -DFUNCTIONAL -DUNIT_DELAY=#0 ../top_module_directory/verilog_model/primitives.v ../top_module_directory/verilog_model/sky130_
+  fd_sc_hd.v my_design_synth.v example_tb.v
+$ ./a.out
+$ gtkwave dumpfile_name.vcd
+```
+
+One will observe that the gtkwave waveform for the netlist should match the waveform to that of the RTL-design given the same testbench.
 
 
 
