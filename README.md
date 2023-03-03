@@ -52,7 +52,7 @@ $ sudo apt-get install gtkwave
 ```
 To simulate and run the verilog code, follow the format:
 ```
-$ iverilog -o my_design example.v example_tb.v
+$ iverilog example.v example_tb.v
 ```
 This command compiles the design, which is spread across two input files, and generates the compiled result into the "my_design" file. This works for small to medium sized designs. Next execute the compiled program like so:
 ```
