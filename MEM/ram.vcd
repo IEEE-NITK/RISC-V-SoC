@@ -1,0 +1,147 @@
+$date
+	Sun Mar 26 16:49:52 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_ram $end
+$var wire 8 ! o_data [7:0] $end
+$var reg 16 " i_addr [15:0] $end
+$var reg 1 # i_clk $end
+$var reg 8 $ i_data [7:0] $end
+$var reg 1 % i_we $end
+$var integer 32 & i [31:0] $end
+$scope module UUT $end
+$var wire 16 ' i_addr [15:0] $end
+$var wire 1 # i_clk $end
+$var wire 8 ( i_data [7:0] $end
+$var wire 1 % i_we $end
+$var wire 8 ) o_data [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx )
+b10010010 (
+b0 '
+b0 &
+1%
+b10010010 $
+0#
+b0 "
+bx !
+$end
+#5
+b1000000 !
+b1000000 )
+b1000000 $
+b1000000 (
+b1 "
+b1 '
+b1 &
+1#
+#10
+0#
+#15
+b100 $
+b100 (
+bx !
+bx )
+b10 "
+b10 '
+b10 &
+1#
+#20
+0#
+#25
+b110001 !
+b110001 )
+b110001 $
+b110001 (
+b11 "
+b11 '
+b11 &
+1#
+#30
+0#
+#35
+b10000110 $
+b10000110 (
+bx !
+bx )
+b100 "
+b100 '
+b100 &
+1#
+#40
+0#
+#45
+b11000110 !
+b11000110 )
+b11000110 $
+b11000110 (
+b101 "
+b101 '
+b101 &
+1#
+#50
+0#
+#55
+b110010 $
+b110010 (
+bx !
+bx )
+b110 "
+b110 '
+b110 &
+1#
+#60
+0#
+#65
+b1001 !
+b1001 )
+b1001 $
+b1001 (
+b111 "
+b111 '
+b111 &
+1#
+#70
+0#
+#75
+b10000000 $
+b10000000 (
+bx !
+bx )
+b1000 "
+b1000 '
+b1000 &
+1#
+#80
+0#
+#85
+b10000110 !
+b10000110 )
+b10000110 $
+b10000110 (
+b1001 "
+b1001 '
+b1001 &
+1#
+#90
+0#
+#95
+b10111011 $
+b10111011 (
+bx !
+bx )
+b1010 "
+b1010 '
+b1010 &
+1#
+#100
+0#

@@ -184,24 +184,3 @@ end
 
 endmodule
 
-module tb_spiM();
-
-parameter SPI_MODE = 0;
-parameter CLKS_PER_HALF_BIT = 2;
-parameter MAIN_CLK_DELAY = 5;
-parameter DATAWIDTH = 8;
-
-reg i_reset;
-reg i_clk;
-
-wire o_spi_clk;
-wire o_spi_MOSI;
-
-//Master Specific
-reg [DATAWIDTH-1:0] i_tx_data;
-reg i_tx_valid;
-wire o_tx_ready;
-
-
-
-endmodule
