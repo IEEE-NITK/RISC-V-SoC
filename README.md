@@ -91,5 +91,13 @@ $ gtkwave dumpfile_name.vcd
 One will observe that the gtkwave waveform for the netlist should match the waveform to that of the RTL-design given the same testbench.
 
 
+<<<<<<< HEAD
 
 
+=======
+## UART
+A UART ( <b>U</b>niversal <b>A</b>synchronous <b>R</b>eceiver <b>T</b>ransmitter ) is a device-to-device hardware communication protocol that uses asynchronous serial communication with configurable speed.
+
+[UART]()
+<hr>
+>>>>>>> testCode
