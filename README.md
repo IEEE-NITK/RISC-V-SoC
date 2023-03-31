@@ -38,3 +38,9 @@ A UART ( <b>U</b>niversal <b>A</b>synchronous <b>R</b>eceiver <b>T</b>ransmitter
 
 [UART](https://github.com/IEEE-NITK/RISC-V-SoC/tree/testCode/UART)
 <hr>
+
+## SPI
+The Serial Peripheral Interface (SPI) is a synchronous serial communication interface specification used for short-distance communication.
+
+[SPI](https://github.com/IEEE-NITK/RISC-V-SoC/tree/testCode/SPI)
+<hr>
