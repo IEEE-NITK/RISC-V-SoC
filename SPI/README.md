@@ -15,7 +15,7 @@ The SPI bus specifies four logic signals:
 - ```MOSI``` on a master connects to MOSI on a slave. MISO on a master connects to ```MISO``` on a slave
 
 ## CLOCK SIGNALS IN SPI:
-- he clock signal synchronizes the output of data bits from the master to the sampling of bits by the slave. One bit of data is transferred in each clock cycle, so the speed of data transfer is determined by the frequency of the clock signal. SPI communication is always initiated by the master since the master configures and generates the clock signal. The clock signal in SPI can be modified using the properties of clock polarity and clock phase
+- The clock signal synchronizes the output of data bits from the master to the sampling of bits by the slave. One bit of data is transferred in each clock cycle, so the speed of data transfer is determined by the frequency of the clock signal. SPI communication is always initiated by the master since the master configures and generates the clock signal. The clock signal in SPI can be modified using the properties of clock polarity and clock phase
 - CPOL determines the polarity of the clock. The polarities can be converted with a simple inverter.
 - CPOL=0 is a clock which idles at 0, and each cycle consists of a pulse of 1. That is, the leading edge is a rising edge, and the trailing edge is a falling edge.
 - CPOL=1 is a clock which idles at 1, and each cycle consists of a pulse of 0. That is, the leading edge is a falling edge, and the trailing edge is a rising edge.
