@@ -1,4 +1,3 @@
-// We haven't interfaced with baud counter yet :
 // initial assumptions
 // baud_rate = 115200
 // baud_count = clock_freq/ baud_rate = 100MHz/115200 = 868
