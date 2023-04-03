@@ -34,9 +34,10 @@ Case 1: Write two arbitrary values to it in succession and prove that you can re
 
 
 **Waveform**
-![Wavefomr](https://github.com/IEEE-NITK/RISC-V-SoC/blob/main/UART/fifo/waveform.png)
+![Waveform](https://github.com/IEEE-NITK/RISC-V-SoC/blob/main/UART/fifo/images/waveform.png)
+
 **Memory**
-![Memory](https://github.com/IEEE-NITK/RISC-V-SoC/blob/main/UART/fifo/memory.png)
+![Memory](https://github.com/IEEE-NITK/RISC-V-SoC/blob/main/UART/fifo/images/memory.png)
  
 
 
