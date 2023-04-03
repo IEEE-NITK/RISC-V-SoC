@@ -1,0 +1,227 @@
+$date
+	Sun Mar 26 20:53:26 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_spiM $end
+$var wire 1 ! o_tx_ready $end
+$var wire 1 " o_spi_clk $end
+$var wire 1 # o_spi_MOSI $end
+$var wire 1 $ o_rx_valid $end
+$var wire 8 % o_rx_data [7:0] $end
+$var reg 1 & i_clk $end
+$var reg 1 ' i_reset $end
+$var reg 1 ( i_spi_MISO $end
+$var reg 8 ) i_tx_data [7:0] $end
+$var reg 1 * i_tx_valid $end
+$var integer 32 + i [31:0] $end
+$scope module UUT $end
+$var wire 1 & i_clk $end
+$var wire 1 ' i_reset $end
+$var wire 1 ( i_spi_MISO $end
+$var wire 8 , i_tx_data [7:0] $end
+$var wire 1 * i_tx_valid $end
+$var wire 1 - w_CPHA $end
+$var wire 1 . w_CPOL $end
+$var reg 8 / o_rx_data [7:0] $end
+$var reg 1 $ o_rx_valid $end
+$var reg 1 # o_spi_MOSI $end
+$var reg 1 " o_spi_clk $end
+$var reg 1 ! o_tx_ready $end
+$var reg 1 0 r_leading_edge $end
+$var reg 3 1 r_rx_bit_count [2:0] $end
+$var reg 1 2 r_spi_clk $end
+$var reg 2 3 r_spi_clk_count [1:0] $end
+$var reg 5 4 r_spi_clk_edges [4:0] $end
+$var reg 1 5 r_trailing_edge $end
+$var reg 3 6 r_tx_bit_count [2:0] $end
+$var reg 8 7 r_tx_data [7:0] $end
+$var reg 1 8 r_tx_valid $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x8
+bx 7
+bx 6
+x5
+bx 4
+bx 3
+x2
+bx 1
+x0
+bx /
+0.
+0-
+b10101011 ,
+bx +
+0*
+b10101011 )
+x(
+1'
+0&
+bx %
+x$
+x#
+x"
+x!
+$end
+#5
+b0 3
+02
+05
+00
+b0 4
+0!
+08
+b0 7
+b111 6
+0#
+b111 1
+0$
+b0 %
+b0 /
+0"
+1&
+#10
+0&
+0(
+1*
+b0 +
+0'
+#15
+b10101011 7
+18
+b10000 4
+1(
+b1 +
+1&
+#20
+0&
+#25
+b110 6
+1#
+b10 +
+1&
+#30
+0&
+#35
+b11 +
+1&
+#40
+0&
+#45
+b100 +
+1&
+#50
+0&
+#55
+b101 +
+1&
+#60
+0&
+#65
+b110 +
+1&
+#70
+0&
+#75
+0(
+b111 +
+1&
+#80
+0&
+#85
+1(
+b1000 +
+1&
+#90
+0&
+#95
+b1001 +
+1&
+#100
+0&
+#105
+0(
+b1010 +
+1&
+#110
+0&
+#115
+1(
+b1011 +
+1&
+#120
+0&
+#125
+b1100 +
+1&
+#130
+0&
+#135
+0(
+b1101 +
+1&
+#140
+0&
+#145
+1(
+b1110 +
+1&
+#150
+0&
+#155
+0(
+b1111 +
+1&
+#160
+0&
+#165
+b10000 +
+1&
+#170
+0&
+#175
+1&
+#180
+0&
+#185
+1&
+#190
+0&
+#195
+1&
+#200
+0&
+#205
+1&
+#210
+0&
+#215
+1&
+#220
+0&
+#225
+1&
+#230
+0&
+#235
+1&
+#240
+0&
+#245
+1&
+#250
+0&
+#255
+1&
+#260
+0&
+#265
+1&

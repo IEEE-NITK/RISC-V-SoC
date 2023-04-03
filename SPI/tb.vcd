@@ -1,0 +1,211 @@
+$date
+	Sat Apr  1 14:29:57 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 1 ! o_TX_Ready $end
+$var wire 1 " o_SPI_MOSI $end
+$var wire 1 # o_SPI_Clk $end
+$var wire 1 $ o_RX_DV $end
+$var wire 8 % o_RX_Byte [7:0] $end
+$var reg 1 & i_Clk $end
+$var reg 1 ' i_Rst_L $end
+$var reg 1 ( i_SPI_MISO $end
+$var reg 8 ) i_TX_Byte [7:0] $end
+$var reg 1 * i_TX_DV $end
+$var integer 32 + i [31:0] $end
+$scope module UUT $end
+$var wire 1 & i_Clk $end
+$var wire 1 ' i_Rst_L $end
+$var wire 1 ( i_SPI_MISO $end
+$var wire 8 , i_TX_Byte [7:0] $end
+$var wire 1 * i_TX_DV $end
+$var wire 1 - w_CPHA $end
+$var wire 1 . w_CPOL $end
+$var reg 8 / o_RX_Byte [7:0] $end
+$var reg 1 $ o_RX_DV $end
+$var reg 1 # o_SPI_Clk $end
+$var reg 1 " o_SPI_MOSI $end
+$var reg 1 ! o_TX_Ready $end
+$var reg 1 0 r_Leading_Edge $end
+$var reg 3 1 r_RX_Bit_Count [2:0] $end
+$var reg 1 2 r_SPI_Clk $end
+$var reg 2 3 r_SPI_Clk_Count [1:0] $end
+$var reg 5 4 r_SPI_Clk_Edges [4:0] $end
+$var reg 3 5 r_TX_Bit_Count [2:0] $end
+$var reg 8 6 r_TX_Byte [7:0] $end
+$var reg 1 7 r_TX_DV $end
+$var reg 1 8 r_Trailing_Edge $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+08
+07
+b0 6
+b111 5
+b0 4
+b0 3
+02
+b111 1
+00
+b0 /
+0.
+0-
+b10101011 ,
+bx +
+1*
+b10101011 )
+x(
+0'
+0&
+b0 %
+0$
+0#
+0"
+0!
+$end
+#5
+1&
+#10
+0&
+0(
+b0 +
+#15
+1(
+b1 +
+1&
+#20
+0&
+#25
+b10 +
+1&
+#30
+0&
+#35
+b11 +
+1&
+#40
+0&
+#45
+b100 +
+1&
+#50
+0&
+#55
+b101 +
+1&
+#60
+0&
+#65
+b110 +
+1&
+#70
+0&
+#75
+0(
+b111 +
+1&
+#80
+0&
+#85
+b1000 +
+1&
+#90
+0&
+#95
+1&
+b1010110 )
+b1010110 ,
+#100
+0&
+#105
+1&
+1(
+b1 +
+#110
+0&
+#115
+0(
+b10 +
+1&
+#120
+0&
+#125
+1(
+b11 +
+1&
+#130
+0&
+#135
+b100 +
+1&
+#140
+0&
+#145
+0(
+b101 +
+1&
+#150
+0&
+#155
+1(
+b110 +
+1&
+#160
+0&
+#165
+0(
+b111 +
+1&
+#170
+0&
+#175
+b1000 +
+1&
+#180
+0&
+#185
+1&
+#190
+0&
+#195
+1&
+#200
+0&
+#205
+1&
+#210
+0&
+#215
+1&
+#220
+0&
+#225
+1&
+#230
+0&
+#235
+1&
+#240
+0&
+#245
+1&
+#250
+0&
+#255
+1&
+#260
+0&
+#265
+1&
+#270
+0&
+#275
+1&
