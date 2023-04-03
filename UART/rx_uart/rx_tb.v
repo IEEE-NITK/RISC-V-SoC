@@ -13,6 +13,11 @@ initial begin
 end
 
 reg [9:0]data_in = 10'b111011010;
+
+initial begin
+    $dumpfile("rx_tb.vcd");
+    $dumpvars(0, tb_rx);
+end
 initial begin
 $monitor ("[$monitor] time=%0t i_rx_data=%b o_wr=%b o_data=%b", $time, i_rx_data, o_wr, o_data); 
 
