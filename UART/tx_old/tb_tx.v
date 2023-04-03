@@ -1,4 +1,4 @@
-module tb_rx();
+module tb_tx();
 
 parameter DATAWIDTH = 8;
 
@@ -13,6 +13,11 @@ transmitter UUT(clk, i_data, i_reset, i_transmit, o_tx_data);
 initial begin
     clk = 0;
     forever clk = #5 ~clk;
+end
+
+initial begin
+    $dumpfile("tb_tx.vcd");
+    $dumpvars(0, tb_tx);
 end
 
 initial begin
